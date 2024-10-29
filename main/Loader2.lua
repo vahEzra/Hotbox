@@ -4,8 +4,10 @@ local function identifyExecutor()
 end
 
 local plr = game.Players.LocalPlayer
-
-
+local part = Instance.new("Part", game.ReplicatedStorage.
+part.Name = "dectector_2000"
+if game.ReplicatedStorage.dectector_2000 then
+	else
 print("                                           ")
 print("                                           ")
 print("                                           ")
@@ -24,7 +26,6 @@ wait(3)
 print("Executor Name: " .. identifyExecutor())
 
 
-
 print("Hotbox Seems to Be in: " .. game.Name)
 print("Hotbox Searching for Any Hubs with GameID: " .. game.GameId)
 
@@ -36,3 +37,4 @@ elseif game.GameId == 2788229376 then
 else
 	warn("an error occured. [C0DE: NOGAME_DETECTED]")
 end
+	end

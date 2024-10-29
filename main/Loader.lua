@@ -26,13 +26,13 @@ print("Executor Name: " .. identifyExecutor())
 
 local instance = Instance.new("Part", game.ReplicatedStorage)
 
-print("Hotbox Seems to Be in: " .. instance.Parent.Parent.Name)
-print("Hotbox Searching for Any Hubs with GameID: " .. game.PlaceId)
+print("Hotbox Seems to Be in: " .. instance.Parent.Parent.Parent.Name)
+print("Hotbox Searching for Any Hubs with GameID: " .. game.GameId)
 
 wait(6)
-if game.PlaceId == 6516141723 then
+if game.GameId == 6516141723 then
 	warn("loadstring WEBSITES: :https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua: or :https://pastebin.com/raw/wbJTDuKw: ")
-elseif game.PlaceId == 2788229376 then
+elseif game.GameId == 2788229376 then
 	warn("(spaceX is here but daHood added anti-cheat and if you cheat you get perma banned BE WARNED!) loadstring WEBSITES: https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood")
 else
 	warn("an error occured. [C0DE: NOGAME_DETECTED]")

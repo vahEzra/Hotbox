@@ -21,7 +21,7 @@ print("                                           ")
 wait(3)
 print("Executor Name: " .. identifyExecutor())
 
-print("Hotbox Seems to Be in: " .. game.Name)
+print("Hotbox Seems to Be in: " .. game.Parent.Name)
 print("Hotbox Searching for Any Hubs with GameID: " .. game.GameId)
 
 wait(6)

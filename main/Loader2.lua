@@ -4,9 +4,12 @@ local function identifyExecutor()
 end
 
 local plr = game.Players.LocalPlayer
-local part = Instance.new("Part", game.ReplicatedStorage.
+local part = Instance.new("Part",game.ReplicatedStorage)
 part.Name = "dectector_2000"
+
 if game.ReplicatedStorage.dectector_2000 then
+		print("please try executing again")
+		game.ReplicatedStorage.dectector_2000:Destroy()
 	else
 print("                                           ")
 print("                                           ")

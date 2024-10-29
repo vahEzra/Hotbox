@@ -5,8 +5,8 @@ end
 
 local plr = game.Players.LocalPlayer
 
-if plr.Name == "welfringJames9" or "Chinhooks_DT" then
-	plr:Kick("[HOTBOX] You've been suspended by Chinhooks_DT on " .. tick() .. " as of suspicious activity. Please try this again or make a report to vahezra on Discord, thanks!")
+if plr.Name == "welfringJames9" then
+	plr:Kick("[HOTBOX] You've been suspended by Chinhooks_DT on " .. local currentTime = tick() local formattedTime = os.date("%m/%d/%Y, %H:%M:%S", currentTime) formattedTime .. " as of suspicious activity. Please try this again or make a report to vahezra on Discord, thanks!")
 print("                                           ")
 print("                                           ")
 print("                                           ")

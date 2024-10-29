@@ -1,6 +1,6 @@
 local function identifyExecutor()
     local executorName = identifyexecutor and identifyexecutor() or "Unknown Executor"
-    return print(executorName)
+    return executorName
 end
 
 local plr = game.Players.LocalPlayer
@@ -11,13 +11,16 @@ wait(3)
 print("Loading Account and Executor Information.")
 wait(2)
 print("Account Name: " .. plr.Name)
-print("Account Age: " .. plr.AccountAge)
+print("Account Age: " .. plr.AccountAge .. " Days Old")
 print("Account Banned: Flase (how would you playing the game if your account is banned?)")
-print("\N")
+print("                                           ")
 print("Executor Information: ")
-print("\N")
+print("                                           ")
 wait(3)
 print("Executor Name: " .. identifyExecutor())
 
 print("Hotbox Seems to Be in: " .. game.Name)
-print("Hotbox Searching for Any Hubs with GameID: " .. game.GameId .. ")
+print("Hotbox Searching for Any Hubs with GameID: " .. game.GameId)
+
+wait(6)
+warn("an error occured. [C0DE: NOGAME_DETECTED]")

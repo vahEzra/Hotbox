@@ -30,7 +30,7 @@ print("Hotbox Seems to Be in: " .. game.Name)
 print("Hotbox Searching for Any Hubs with GameID: " .. game.GameId)
 
 wait(6)
-if game.GameId == 2440500124 then
+if game.GameId == 2440500124 and game.PlaceId == 6516141723 then
 	warn("loadstring WEBSITES: :https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua: or :https://pastebin.com/raw/wbJTDuKw: ")
 elseif game.GameId == 2788229376 then
 	warn("(spaceX is here but daHood added anti-cheat and if you cheat you get perma banned BE WARNED!) loadstring WEBSITES: https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood")

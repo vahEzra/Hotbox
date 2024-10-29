@@ -10,7 +10,7 @@ print("[AUTO UPDATE] Uh Oh! Please try the new loadstring for a updated version.
 --print("                                           ")
 --print("                                           ")
 --print("                                           ")
---print("Hotbox Script Experience Version.1.2")
+--print("Hotbox Script Experience Version.1.1")
 --print("Thanks for Installing Hotbox.")
 --wait(3)
 --print("Loading Account and Executor Information.")

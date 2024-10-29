@@ -4,7 +4,9 @@ local function identifyExecutor()
 end
 
 local plr = game.Players.LocalPlayer
-
+print("                                           ")
+print("                                           ")
+print("                                           ")
 print("Hotbox Script Experience Version.1.2")
 print("Thanks for Installing Hotbox.")
 wait(3)

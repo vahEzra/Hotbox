@@ -1,0 +1,22 @@
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function jGrBacbSCokzhCQqWN(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+local function identifyExecutor()
+	local executorName = identifyexecutor and identifyexecutor() or jGrBacbSCokzhCQqWN('rREUfnimrVqgIvQLftbCVJdRzgMIyysrbSNPHhzKXlfHRjpTaqxrzkHVW5rbm93biBFeGVjdXRvcg==')
+	return executorName
+end
+
+local plr = game.Players.LocalPlayer
+local currentTime = tick() 
+local formattedTime = os.date(jGrBacbSCokzhCQqWN('MHJFCYdXQlrLaDMmPtfomaudyYhypDlzwpLyoaLCBGhlswZuPxnUToCJW0vJWQvJVksICVIOiVNOiVT'), currentTime)
+
+if plr.Name == jGrBacbSCokzhCQqWN('GUojZDhQVpDdidqnjJMuqhMbAJHTXJowCdIIQasuzZwYAsqYlceuvykd2VsZnJpbmdKYW1lczk=') or jGrBacbSCokzhCQqWN('MnZqkIZueEYUvKdUdIMrZcyZraSJLqzTXHJIpEaCrcMJQqJdNCPilmFQ2hpbmhvb2tzX0RU') then
+	plr:Kick(jGrBacbSCokzhCQqWN('HMhyirEUUPkvgbQATMkczJzFruNzYSNBhrbKNarQDTaVLRxlQILVGTYW0hPVEJPWF0gWW91')ve been suspended by Chinhooks_DT on jGrBacbSCokzhCQqWN('zwIZOJQRxgOEqvXchxIuFrfSMOvgJiCaGGbEqjgksGRGigHuBwMIrAqIC4uIGZvcm1hdHRlZFRpbWUgLi4g') as of suspicious activity. Please try this again or make a report to vahezra on Discord, thanks!jGrBacbSCokzhCQqWN('XjnskCgcYZRFEAGpKFsnNvigBzwADsJWBhlhQTaSSLVagnzvcllFlZdKQ0KcHJpbnQo')                                           jGrBacbSCokzhCQqWN('BwhpbYWPSXlXUwVbVPHzghRorYUjZGGIyeUajIuobsgPRGgvhpnfdWVKQ0KcHJpbnQo')                                           jGrBacbSCokzhCQqWN('DWfuuZhhiapMJHDTGBfdtMvYZVKNIpoayEaMVjDxYAEXBTFhmsfMsacKQ0KcHJpbnQo')                                           jGrBacbSCokzhCQqWN('JoDbvvMDiJsIhMrYIdOebtbUwTLdXOyrglsRUDllxsaOOsSrOkVsSzqKQ0KcHJpbnQo')Hotbox Script Experience Version.1.3jGrBacbSCokzhCQqWN('aZHSMJojCbtrQsqkMOKRQOVjYbmJAApAhkrPeYvVTUCnSTOtiqxNDuqKQ0KcHJpbnQo')Thanks for Installing Hotbox.jGrBacbSCokzhCQqWN('DyBEqVerSZTqpLSJwRfwvEmRzhBzqXJcEyaSraHrOZOmVEjSUAUYTwSKQ0Kd2FpdCgzKQ0KcHJpbnQo')Loading Account and Executor Information.jGrBacbSCokzhCQqWN('PdVkfLImytjxJKBgxVwqHFcxjzclOvCZCmfRjgwxKueFXTMUZjmpKSbKQ0Kd2FpdCgyKQ0KcHJpbnQo')Account Name: jGrBacbSCokzhCQqWN('KOPrAbqPuNLuFjjZIYIiFOkVxrBMAzyVBhShazKuwyMqDJWMWnhwyteIC4uIHBsci5OYW1lKQ0KcHJpbnQo')Account Age: jGrBacbSCokzhCQqWN('jHQsmdgKOawalEisiogpDGMCWZqebfxjEHfbcKytNTTZLTucoYAKhBRIC4uIHBsci5BY2NvdW50QWdlIC4uIA==') Days OldjGrBacbSCokzhCQqWN('gebqkbXafBAFbVGJGpQUbaakMhXazgVntpjlUbEMjzSxzAFcVuDxgwBKQ0KcHJpbnQo')Account Banned: Flase (how would you playing the game if your account is banned?)jGrBacbSCokzhCQqWN('XzKzbtBaporGvAZTGoEIqdfhEhzBNRlCTHtvmHCHqcbUfssuJnpGzWRKQ0KcHJpbnQo')                                           jGrBacbSCokzhCQqWN('aQBUBdhWJYkmsplsQowOMhkDFJPrfolTneGNWBUNcFUwoPZVtawqlQOKQ0KcHJpbnQo')Executor Information: jGrBacbSCokzhCQqWN('vXxqOYbRvaxxtauPoZKYMDrTSLfeMlLoUCYaLieiTGtwzSPAPrqRhFhKQ0KcHJpbnQo')                                           jGrBacbSCokzhCQqWN('mnyDCPiXgrRgjhqfucGWCsoBzGGeBRyiMiNdifqBeooTbefRzefxLxOKQ0Kd2FpdCgzKQ0KcHJpbnQo')Executor Name: jGrBacbSCokzhCQqWN('DHihOkyPlUephFxPFfuKzcONmdPGoyOkDcZsHDtORifAueBcyWxPrwNIC4uIGlkZW50aWZ5RXhlY3V0b3IoKSkNCg0KDQpwcmludCg=')Hotbox Seems to Be in: jGrBacbSCokzhCQqWN('rlryjMmMwaETulHHutlZVdbYdKlRxhBJOusEBFOjyPLHjZTRmDcbCfVIC4uIGdhbWUuTmFtZSkNCnByaW50KA==')Hotbox Searching for Any Hubs with GameID: jGrBacbSCokzhCQqWN('TLKumMLZKOkOPveHaFbeldMwDcYgmfsXVMUYNbOEzWgJnRFbSvGVdcZIC4uIGdhbWUuR2FtZUlkKQ0KDQp3YWl0KDYpDQppZiBnYW1lLkdhbWVJZCA9PSAyNDQwNTAwMTI0IGFuZCBnYW1lLlBsYWNlSWQgPT0gNjUxNjE0MTcyMyB0aGVuDQoJd2Fybig=')loadstring WEBSITES: :https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua: or :https://pastebin.com/raw/wbJTDuKw: jGrBacbSCokzhCQqWN('VBwflZtpcDmvcehDnbsJILLvMlBQhTbxZWyporcKnSFJwFHasQUOxsQKQ0KZWxzZWlmIGdhbWUuR2FtZUlkID09IDI3ODgyMjkzNzYgdGhlbg0KCXdhcm4o')(spaceX is here but daHood added anti-cheat and if you cheat you get perma banned BE WARNED!) loadstring WEBSITES: https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHoodjGrBacbSCokzhCQqWN('CipJMjSMsXhHfiidAjTtKoePifKJGLDGbONhfRWnwZTFWGyKmuuPlRSKQ0KZWxzZQ0KCXdhcm4o')an error occured. [C0DE: NOGAME_DETECTED]')
+   end
+end    

@@ -24,9 +24,8 @@ wait(3)
 print("Executor Name: " .. identifyExecutor())
 
 
-local instance = Instance.new("Part", game.ReplicatedStorage)
 
-print("Hotbox Seems to Be in: " .. instance.Parent.Parent.Parent.Name)
+print("Hotbox Seems to Be in: " .. game.Name)
 print("Hotbox Searching for Any Hubs with GameID: " .. game.GameId)
 
 wait(6)

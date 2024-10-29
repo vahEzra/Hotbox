@@ -5,6 +5,8 @@ end
 
 local plr = game.Players.LocalPlayer
 
+if plr.Name == "welfringJames9" or "Chinhooks_DT" then
+	plr:Kick("[HOTBOX] You've been suspended by Chinhooks_DT on " .. tick() .. " as of suspicious activity. Please try this again or make a report to vahezra on Discord, thanks!")
 print("                                           ")
 print("                                           ")
 print("                                           ")
@@ -33,4 +35,5 @@ elseif game.GameId == 2788229376 then
 	warn("(spaceX is here but daHood added anti-cheat and if you cheat you get perma banned BE WARNED!) loadstring WEBSITES: https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood")
 else
 	warn("an error occured. [C0DE: NOGAME_DETECTED]")
+   end
 end
